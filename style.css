@@ -23,7 +23,7 @@ body {
     margin: 0;
     padding: 5rem 1rem;
     font-family: var(--font-main);
-    /*background-color: var(--color-bg);*/
+    background-color: var(--color-bg);
 }
 .profileAndNav {
     background-color: var(--color-bgc);
@@ -64,4 +64,65 @@ body {
     align-items: center;
     height: 4rem;
     color: var(--color-title);
+}
+.displayContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    height: 7rem;
+    background-color: var(--color-bgc);
+    border-radius: 1rem;
+}
+.titleContainer, .timeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.icon {
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+.icon img {
+    align-self: flex-end;
+    margin-right: 1rem;
+    position: absolute;
+    top: -6px;
+    width: 4rem;
+    height: 4rem;
+    z-index: 0;
+}
+.work {
+    background-color: var(--color-bg-work);
+    border-radius: 1rem;
+}
+.play {
+    background-color: var(--color-bg-play);
+    border-radius: 1rem;
+}
+.study {
+    background-color: var(--color-bg-study);
+    border-radius: 1rem;
+}
+.exercise {
+    background-color: var(--color-bg-exercise);
+    border-radius: 1rem;
+}
+.social {
+    background-color: var(--color-bg-social);
+    border-radius: 1rem;
+}
+.selfcare {
+    background-color: var(--color-bg-selfcare);
+    border-radius: 1rem;
+}
+.timeParagraph, .updatedParagraph, .title{
+    color: var(--color-title);
+}
+article {
+    margin: 1rem 0;
 }
