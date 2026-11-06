@@ -15,67 +15,115 @@
     <title>Frontend Mentor | Time tracking dashboard</title>
   </head>
   <body>
-    <div>
-      <img src="images/image-jeremy.png" alt="Jeremy photo as profile" />
-      <p>Report for</p>
-      <p>Jeremy Robson</p>
-      Daily Weekly Monthly
+    <div class="profileAndNav">
+      <div class="profile">
+        <div class="jeremyImage">
+          <img src="images/image-jeremy.png" alt="Jeremy photo as profile" />
+        </div>
+        <div>
+          <p class="report">Report for</p>
+          <p id="name">Jeremy Robson</p>
+        </div>
+      </div>
+      <div class="nav"><a>Daily</a> <a>Weekly</a> <a>Monthly</a></div>
     </div>
+
     <article>
-      <div>
-        <p>Work</p>
+      <div class="workIcon">
+        <img src="images/icon-work.svg" alt="email icon" />
       </div>
-      <div>
-        <p>32hrs</p>
-        <p>Previous - 36hrs</p>
-      </div>
-    </article>
-    <article>
-      <div>
-        <p>Play</p>
-      </div>
-      <div>
-        <p>10hrs</p>
-        <p>Previous - 8hrs</p>
+      <div class="displayContainer">
+        <div class="titleContainer">
+          <p class="title">Work</p>
+          <img src="images/icon-ellipsis.svg" alt="3 dot" />
+        </div>
+        <div class="timeContainer">
+          <p class="timeParagraph">32hrs</p>
+          <p class="updatedParagraph">Last Week - 36hrs</p>
+        </div>
       </div>
     </article>
 
     <article>
-      <div>
-        <p>Study</p>
+      <div class="playIcon">
+        <img src="images/icon-play.svg" alt="a tool palayed with playstation" />
       </div>
-      <div>
-        <p>4hrs</p>
-        <p>Previous - 7hrs</p>
-      </div>
-    </article>
-    <article>
-      <div>
-        <p>Exercise</p>
-      </div>
-      <div>
-        <p>4hrs</p>
-        <p>Previous - 5hrs</p>
+      <div class="displayContainer">
+        <div class="titleContainer">
+          <p class="title">Play</p>
+          <img src="images/icon-ellipsis.svg" alt="3 dot" />
+        </div>
+        <div class="timeContainer">
+          <p class="timeParagraph">10hrs</p>
+          <p class="updatedParagraph">Last Week - 8hrs</p>
+        </div>
       </div>
     </article>
 
     <article>
-      <div>
-        <p>Social</p>
+      <div class="studyIcon">
+        <img src="images/icon-study.svg" alt="study icon" />
       </div>
-      <div>
-        <p>5hrs</p>
-        <p>Previous - 10hrs</p>
+      <div class="displayContainer">
+        <div class="titleContainer">
+          <p class="title">Study</p>
+          <img src="images/icon-ellipsis.svg" alt="3 dot" />
+        </div>
+        <div class="timeContainer">
+          <p class="timeParagraph">4hrs</p>
+          <p class="updatedParagraph">Last Week - 7hrs</p>
+        </div>
       </div>
     </article>
 
     <article>
-      <div>
-        <p>Self Care</p>
+      <div class="exerciseIcon">
+        <img src="images/icon-exercise.svg" alt="person icon with horizontal" />
       </div>
-      <div>
-        <p>2hrs</p>
-        <p>Previous - 2hrs</p>
+      <display class="displayContainer">
+        <div class="titleContainer">
+          <p class="title">Exercise</p>
+          <img src="images/icon-ellipsis.svg" alt="3 dot" />
+        </div>
+        <div class="timeContainer">
+          <p class="timeParagraph">4hrs</p>
+          <p class="updatedParagraph">Last Week - 5hrs</p>
+        </div>
+      </display>
+    </article>
+
+    <article>
+      <div class="socialIcon">
+        <img src="images/icon-social.svg" alt="message icon" />
+      </div>
+      <div class="displayContainer">
+        <div class="titleContainer">
+          <p class="title">Social</p>
+          <img src="images/icon-ellipsis.svg" alt="3 dot" />
+        </div>
+        <div class="timeContainer">
+          <p class="timeParagraph">5hrs</p>
+          <p class="updatedParagraph">Last Week - 10hrs</p>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <div class="selfCareIcon">
+        <img
+          src="images/icon-self-care.svg"
+          alt="heart icon with plus sign inside"
+        />
+      </div>
+      <div class="displayContainer">
+        <div class="titleContainer">
+          <p class="title">Self Care</p>
+          <img src="images/icon-ellipsis.svg" alt="3 dot" />
+        </div>
+        <div class="timeContainer">
+          <p class="timeParagraph">2hrs</p>
+          <p class="updatedParagraph">Last Week - 2hrs</p>
+        </div>
       </div>
     </article>
   </body>
