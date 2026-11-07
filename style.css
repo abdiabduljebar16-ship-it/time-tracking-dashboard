@@ -136,3 +136,18 @@ body {
 article {
     margin: 1rem 0;
 }
+@media (min-width: 768px){
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    .profileAndNav {
+        grid-column: span 2;
+    }
+}
+@media ( min-width: 1280px){
+
+}
