@@ -37,3 +37,12 @@ monthly.addEventListener("click", async (event)=>{
        previousTime[index].textContent = `Last month - ${user.timeframes.monthly.previous}hrs`;
     });
 });
+const buttons = [weekly , daily, monthly];
+buttons.forEach( button => {
+    button.addEventListener("click", ()=>{
+        buttons.forEach(button =>{
+            button.classList.remove("active");
+        });
+        button.classList.add("active");
+    });
+});
