@@ -2,7 +2,7 @@ const  daily = document.querySelector(".daily");
 const  weekly = document.querySelector(".weekly");
 const monthly = document.querySelector(".monthly");
 const currentTime = document.querySelectorAll(".timeParagraph");
-const previousTime = document.querySelectorAll(".updatedParagraph")
+const previousTime = document.querySelectorAll(".updatedParagraph");
 
 daily.addEventListener("click", async (event)=>{
     const response = await fetch("data.json");

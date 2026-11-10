@@ -2,6 +2,7 @@
     --color-bg: hsl(224, 46%, 9%);
     --color-bgp: hsl(246, 80%, 60%);
     --color-bgc: hsl(236, 44%, 20%);
+    --bg-hover: hsl(237, 41%, 34%);
 
     --color-maintext: hsl(243, 43%, 90%);
     --color-secondarytext: hsl(246, 24%, 33%);
@@ -139,6 +140,14 @@ article {
 .active {
   color: white;
 }
+.displayContainer:hover {
+    background-color: var(--bg-hover);
+    cursor: pointer;
+}
+.nav a:hover {
+    color: white;
+    cursor: pointer;
+} 
 @media (min-width: 768px){
     .container {
         display: grid;
